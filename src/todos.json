@@ -1,0 +1,28 @@
+{
+	"todos": [
+		{
+			"title": "Compras",
+			"responsible": "Antonio",
+			"description": "comprar la comida de la semana",
+			"priority": "Alta" 
+		},
+		{
+			"title": "Pagar Deudas",
+			"responsible": "Darwin",
+			"description": "pagar la renta de la television por cable",
+			"priority": "Media" 
+		},
+		{
+			"title": "Limpieza",
+			"responsible": "Maria",
+			"description": "limpiar la sala y el cuarto",
+			"priority": "Media" 
+		},
+		{
+			"title": "Comprar",
+			"responsible": "Antonio",
+			"description": "comprar materiales para las meriendas",
+			"priority": "Baja" 
+		}
+	]
+}
