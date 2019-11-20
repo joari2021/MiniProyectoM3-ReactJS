@@ -36,6 +36,9 @@ class TodoForm extends Component{
 							onChange={this.handleInput}
 							className="form-control"
 							placeholder="Titulo"
+							maxlength="15"
+							pattern="[a-zA-Z0-9]+"
+							required
 						/>
 					</div>
 						
@@ -46,6 +49,9 @@ class TodoForm extends Component{
 							className="form-control"
 							placeholder="Responsable"
 							onChange={this.handleInput}
+							maxlength="20"
+							pattern="[a-zA-Z]+"
+							required
 						/>
 					</div>
 
@@ -56,6 +62,8 @@ class TodoForm extends Component{
 							className="form-control"
 							placeholder="Descripcion"
 							onChange={this.handleInput}
+							maxlength="100"
+							required
 						/>
 					</div>
 
